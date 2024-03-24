@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "NotepadApp": {
+    "NotesApp": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/notepad-app",
+            "outputPath": "dist/notes-app",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -62,10 +62,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "NotepadApp:build:production"
+              "buildTarget": "NotesApp:build:production"
             },
             "development": {
-              "buildTarget": "NotepadApp:build:development"
+              "buildTarget": "NotesApp:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -73,7 +73,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "buildTarget": "NotepadApp:build"
+            "buildTarget": "NotesApp:build"
           }
         },
         "test": {

@@ -9,9 +9,5 @@ import { RouterOutlet } from '@angular/router';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'NotepadApp';
-
-  submit(notes:any){
-console.log("notes....",notes);
-  }
+  title = 'NotesApp';
 }
