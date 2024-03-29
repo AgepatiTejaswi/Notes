@@ -1,0 +1,36 @@
+.notesArea{
+    background-color: white;
+    border-radius: 15px;
+    height: 600px;
+    width: 90%;
+}
+.notesApp{
+    margin-left: 5%;
+}
+textarea{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+:focus-visible {
+    outline: 0px !important;
+}
+.buttonDiv{
+    width: 60px;
+    background-color: tan;
+    height: 35px;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+.submitButton{
+    align-items: left;
+}
+.listButton{
+    align-items: right;
+}
+.buttonSection{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
