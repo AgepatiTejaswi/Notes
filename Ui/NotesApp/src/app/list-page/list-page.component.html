@@ -1,0 +1,17 @@
+<div class="listPage">
+
+    <div class="listSection">
+
+        <div class="listItemDiv" *ngFor="let item of listOfNotes">
+            {{item.description}}
+
+        </div>
+
+
+
+    </div>
+    <div>
+        <button class="backButton" (click)="listPageBackButton()">Back</button>
+    </div>
+
+</div>

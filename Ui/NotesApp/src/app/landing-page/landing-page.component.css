@@ -1,0 +1,52 @@
+
+
+.NotesApp{
+    width: 100%;
+    height: 100vh !important;
+}
+.LandingPageHeader{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 40px;
+    margin: 0px;
+}
+.LandingPage {
+    width: 100%;
+    height: 90% ;
+    display: flex;
+
+}
+.LandingPageDivSection{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.LandingPageDivSectionButton{
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 213px;
+    border: 1px solid black;
+    border-radius: 15px;
+    font-size: 20px;
+    cursor: pointer;
+    background-image: linear-gradient(to right, #FDC830 , #F37335);
+
+}
+.ListButton{
+    margin-top: 50px;
+
+}
+.LandingPageDivSection,.LandingPageImageSection{
+    width: 50%;
+    height: 100%;
+
+}
+
+.LandingPageSectionImage {
+    width: 90%;
+    height: 100%;
+}
